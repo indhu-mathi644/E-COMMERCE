@@ -1,0 +1,87 @@
+.product-details-container {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center; /* Center the card horizontally */
+  background-color: #eae4e4; /* Light background for contrast */
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: row; 
+  width: 90%;
+  background: rgb(243, 242, 242);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a shadow for the card effect */
+  overflow: hidden;
+  padding: 30px;
+  gap: 30px; /* Space between the image and the details */
+}
+
+.apple-image {
+  width: 40%; /* Image takes 40% of the card width */
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+  align-self: flex-start; /* Aligns image to the top */
+}
+
+.mango-info{
+  width: 60%; /* Info takes 60% of the card width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes the button to the bottom if needed */
+}
+
+.mango-info h1 {
+  font-size: 2em;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.detail-description {
+  font-size: 1.1em;
+  color: #605e5e;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Styles for the detail-meta wrapper (Price and Rating) */
+.meta {
+  margin-bottom: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #eee; /* Separator line */
+}
+
+.detail-price {
+  font-size: 1.5em;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.detail-rating {
+  font-size: 1em;
+  color: #ffa500;
+}
+
+
+.buy-now-btn {
+  background-color: #f89707; 
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start; 
+  text-transform: uppercase;
+  outline: none; 
+}
+
+.buy-now-btn:hover {
+  background-color: #6e4c19;
+}
+
