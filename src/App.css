@@ -26,6 +26,8 @@ body {
   font-size: 15px;
   
 }
+
+
 .header a {
   color: #f7047d;
   margin-left: 15px;
@@ -167,12 +169,14 @@ body {
   text-align: center;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
 }
+
 .para{
   color:darkgreen;
   &:hover{
     color:darkred;
   }
 }
+
 .ratings{
   font-weight: bold;
   font-size: 15px;
@@ -180,6 +184,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .price{
   font-weight: bold;
 }
