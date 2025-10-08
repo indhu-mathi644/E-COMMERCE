@@ -216,7 +216,7 @@ function AllProducts() {
                       className="edit-btn" 
                       onClick={() => handleEditClick(product)}
                     >
-                      Update
+                      edit
                     </button>
                   )}
                   {/* Delete Button */}
